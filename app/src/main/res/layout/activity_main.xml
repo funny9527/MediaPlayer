@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreviewActivity">
+    <SurfaceView
+        android:id="@+id/surface"
+        android:layout_width="400dip"
+        android:layout_height="240dip"
+        >
+    </SurfaceView>
+
+    <SurfaceView
+        android:id="@+id/surface1"
+        android:layout_below="@+id/surface"
+        android:layout_width="400dip"
+        android:layout_height="240dip"
+        android:layout_marginTop="30dip"
+        >
+    </SurfaceView>
+</RelativeLayout>

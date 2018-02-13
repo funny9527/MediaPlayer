@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SurfaceView
+        android:id="@+id/surfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="200dip"
+        android:layout_height="60dip"
+        android:text="create in java"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="200dip"
+        android:layout_height="60dip"
+        android:layout_below="@id/btn1"
+        android:text="save yuv in text"
+        />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="200dip"
+        android:layout_height="60dip"
+        android:layout_below="@id/btn2"
+        android:text="decode in native"
+        />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="200dip"
+        android:layout_height="60dip"
+        android:layout_below="@id/btn3"
+        android:text="create in native"
+        />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="200dip"
+        android:layout_height="60dip"
+        android:layout_below="@id/btn4"
+        android:text="hei bai y"
+        />
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="200dip"
+        android:layout_height="60dip"
+        android:layout_below="@id/btn5"
+        android:text="hei bai u"
+        />
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="200dip"
+        android:layout_height="60dip"
+        android:layout_below="@id/btn6"
+        android:text="hei bai v"
+        />
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="200dip"
+        android:layout_height="60dip"
+        android:layout_below="@id/btn7"
+        android:text="rotate"
+        />
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="200dip"
+        android:layout_height="60dip"
+        android:layout_below="@id/btn8"
+        android:text="mask"
+        />
+</RelativeLayout>

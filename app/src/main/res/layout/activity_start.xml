@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/yuv"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:text="yuv"
+        />
+    <Button
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:text="decode"
+        />
+    <Button
+        android:id="@+id/encode"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:text="encode"
+        />
+    <Button
+        android:id="@+id/sdl"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:text="sdl"
+        />
+</LinearLayout>
